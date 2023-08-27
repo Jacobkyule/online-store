@@ -4,6 +4,8 @@ export function calculatePrice(price, currency) {
         return price * 0.86;
       case 'CAD':
         return price * 1.33;
+      case 'KSH':
+        return price * 109;
       default:
         return price;
     }
@@ -25,6 +27,8 @@ export function calculatePrice(price, currency) {
         return '€';
       case 'CAD':
         return '$';
+      case 'KSH':
+        return '#';
       default:
         return '';
     }

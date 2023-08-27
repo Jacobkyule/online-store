@@ -10,9 +10,6 @@ export const App = (props) => {
 
   const { state, dispatch } = props;
   
-  const getFilteredItems = (items, searchTerm) => {
-  return items.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()));
-}
   return (
     <div>
       <CurrencyFilter
