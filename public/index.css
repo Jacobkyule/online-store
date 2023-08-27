@@ -16,6 +16,10 @@ body,
   color: #141c3a;
 }
 
+.heading {
+  text-align: center;
+}
+
 #search-container {
   position: relative;
 }
